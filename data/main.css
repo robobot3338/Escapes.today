@@ -272,3 +272,55 @@ margin-left: -30%;
 color: rgb(26, 50, 117);
 line-height: 150px;
 	}
+
+/* about page */
+#about p {
+	text-align: justify;
+	margin-top: 1em;
+}
+#about {
+	font-family: quicksand;
+	margin-top: 150px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-left: 46px;
+	padding-right: 46px;
+	border-radius: 8px;
+}
+#about div {
+	display: block;
+}
+.leftAbout {
+	float: left;
+	width: 45%;
+	padding-top: 20px;
+}
+.rightAbout {
+	float: right;
+	width: 50%;
+}
+#about:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.big {
+	color: rgb(81,141, 196);
+	font-size: 1.5em;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.leftAbout > .btns {
+	text-align: center;
+	width: 100%;
+	margin-top: 20px;
+}
+.leftAbout > .btn {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
